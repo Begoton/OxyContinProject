@@ -1,0 +1,69 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+    height: 600vh;
+}
+#background
+{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('US_NEWS_MED-OXYCONTIN_5_LA.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    z-index: -1;
+    overflow-y: scroll;
+}   
+#title  
+{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    color: white;
+    text-shadow: 
+            -10px -1px 0 #000,  
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    font-size: 200px;
+    font-family: monospace;
+}
+#collection
+{   
+    height: 900px;
+    width: 900px;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;        
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+#sources
+{
+    padding: 7px 30px;
+    background-color: rgb(30, 30, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    color: gray;
+    transition: 400ms;
+}
+#sources:hover
+{
+    transform: scale(110%);
+    cursor: pointer;
+}
+.header
+{
+    font-size: 30px;
+    text-align: center;
+}

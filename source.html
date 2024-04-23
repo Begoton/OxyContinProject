@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources</title>
+</head>
+<body>
+    <button id="back">&larr; Return</button>
+    <br>
+    <a style="text-align: center;" href="https://www.oxycontin.com/">https://www.oxycontin.com/</a><br><br><br>
+    <a style="text-align: center;" href="https://www.dea.gov/factsheets/oxycodone">https://www.dea.gov/factsheets/oxycodone</a><br><br><br>
+    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2622774/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2622774/</a><br><br><br>
+    <style>
+        body
+        {
+            padding: 0;
+            margin: 0;
+            background-color: rgb(20, 20, 20);
+            text-align: center;
+        }
+        #back
+        {
+            padding: 7px 30px;
+            background-color: rgb(30, 30, 30);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+            color: gray;
+            transition: 400ms;
+            margin: 10px;
+        }
+        #back:hover
+        {
+            transform: scale(110%);
+            cursor: pointer;
+        }
+    </style>
+
+    <script>
+        document.getElementById('back').onclick = () => 
+        {
+            document.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
